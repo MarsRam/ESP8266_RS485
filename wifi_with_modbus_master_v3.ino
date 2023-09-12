@@ -5,7 +5,7 @@
 #include <ModbusRTU.h>
 #include <SoftwareSerial.h>
 
-SoftwareSerial S(D7, D8);
+SoftwareSerial S(D5, D6);
 
 ModbusRTU mb;
 
